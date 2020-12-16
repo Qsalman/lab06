@@ -56,3 +56,60 @@ else{
 //alert(number)
 
 //}
+
+
+
+function checkLessThan() {
+  if (number < 10 ){
+      alert(number);
+  } else {
+      alert("the number is larger than 10");
+  }
+  
+}
+
+
+function booleanFunction() {
+  if(notCorrect) {
+      alert("correct")
+  }
+}
+
+function checkEqualOrLargerThan() {
+  if(number => 10){
+      alert(number)
+  }
+}
+
+
+
+function checkIsLessThanOrEqual() {
+  if(number <= 5){
+      alert(number)
+  }
+}
+
+
+function checkLargeNum() {
+  if (number > 10 ){
+      alert(number);
+  } else {
+      alert("the number is larger than 10");
+  }
+}
+
+function checkIfNotEqual() {
+  if(number != 20) {
+      alert(number)
+  }
+}
+
+checkLargeNum();
+
+function checkPepsi() {
+  if (pepsiDrink == "12 Pepsi"){
+      alert("Correct!");
+  } else {
+      alert("Not Correct");
+  }
+}
